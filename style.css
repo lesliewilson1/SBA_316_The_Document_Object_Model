@@ -11,3 +11,14 @@
     font: 90px 'Libre Baskerville', serif;
 }
 
+#historyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 500px;
+    gap: 15px;
+    font: 20px 'Libre Baskerville', serif;
+    list-style-type: none;
+}
