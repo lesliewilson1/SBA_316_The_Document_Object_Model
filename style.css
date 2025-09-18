@@ -1,0 +1,13 @@
+.homepage {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.title {
+    font: 90px 'Libre Baskerville', serif;
+}
+
