@@ -22,3 +22,9 @@
     font: 20px 'Libre Baskerville', serif;
     list-style-type: none;
 }
+
+.rhyme-button-style {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}

@@ -16,10 +16,12 @@ form.appendChild(input);
 //Create button
 
 const button = document.createElement('button');
+button.style.cursor = 'pointer';
+button.style.fontSize = '18px';
 button.textContent = "Enter";
 form.appendChild(button);
 
-//Display history list
+//Display history list && add rhyme button
 
 button.addEventListener('click', function handleClick(e){
     e.preventDefault();
@@ -29,7 +31,15 @@ if (userText !== '' ){
     listItem.textContent = userText;
     historyList.appendChild(listItem);
     input.value = '';
+
+    const rhymeButton = document.createElement('button');
+    rhymeButton.textContent = 'Rhyme';
+    rhymeButton.id = 'rhymeButtonStyle';
+    rhymeButton.classList.add('rhyme-button-style');
+    document.querySelector('.homepage').appendChild(rhymeButton);
+
 }
+
 
 });
 
