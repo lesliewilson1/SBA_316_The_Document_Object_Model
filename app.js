@@ -38,6 +38,21 @@ if (userText !== '' ){
     rhymeButton.classList.add('rhyme-button-style');
     document.querySelector('.homepage').appendChild(rhymeButton);
 
+    rhymeButton.addEventListener('click', function handleClick(e) {
+        e.preventDefault();
+        fetch(`https://api.api-ninjas.com/v1/rhyme?word=${userText}`, {
+            method: 'GET',
+            headers: {
+                'X-Api-Key': 'SyyRloP1rR4F3Ke5sBEXDw==gm9quogQtyLerbJ4'
+            }
+        })
+
+    });
+
+
+
+
+    
 }
 
 
