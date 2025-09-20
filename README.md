@@ -1,6 +1,6 @@
-# 🎵 Music Box Project
+# 🎵 Music Box Project 🎵
 
-## About
+## 📎About
 
 - The music box captures phrases and stores it in an array
 
@@ -9,7 +9,7 @@
 
 - ✅ Dynamic input field and button creation
 - ✅ Duplicate phrase detection with visual feedback
-- ✅ Input history displayed using HTML templates
+- ✅ Input history displayed
 
 
 ## 🧠 Technologies Used
@@ -24,7 +24,7 @@
 // Blocker: API fetch not working
 
 
-## 📎Copyright
+## 🪶Copyright
 
 Rights are reserved. Do. not. pull. under. any. circumstances.
 
