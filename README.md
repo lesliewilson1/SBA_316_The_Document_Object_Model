@@ -1,4 +1,4 @@
-# 🎵 Music Box Project 🎵
+# 🎵 The Music Box 🎵
 
 ## 📎About
 
