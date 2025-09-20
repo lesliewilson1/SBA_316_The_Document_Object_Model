@@ -2,14 +2,15 @@
 
 ## About
 
-- The music boxes captures phrases and stores it in an array
+- The music box captures phrases and stores it in an array
+
 
 ## 😊 Features
 
 - ✅ Dynamic input field and button creation
 - ✅ Duplicate phrase detection with visual feedback
 - ✅ Input history displayed using HTML templates
----
+
 
 ## 🧠 Technologies Used
 
@@ -18,19 +19,15 @@
 - JavaScript (ES6+)
 
 
----
-
 ## 😒 Known Issues / Blockers
 
 // Blocker: API fetch not working
 
----
 
 ## 📎Copyright
 
-Rights are reserved. Do not pull.
+Rights are reserved. Do. not. pull. under. any. circumstances.
 
----
 
 ## 🤩Acknowledgement
 
