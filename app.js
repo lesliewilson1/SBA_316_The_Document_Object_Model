@@ -43,6 +43,7 @@ if (userText !== '' ){
 }
     if(duplicate) {
         alert("Same phrase entered!");
+        return;
 
     }
 
