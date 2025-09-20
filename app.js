@@ -8,6 +8,10 @@ const userInputs = [];
 const input = document.createElement('input');
 input.type = 'text';
 input.placeholder = 'Type phrase here';
+input.required = true;
+input.minLength = 1;
+input.maxLength = 100,0o0;
+input.pattern = "[A-Za-z0-9]+="
 input.style.width = '300px';
 input.style.height = '25px';
 input.style.fontSize = '18px';
@@ -61,6 +65,8 @@ if (userText !== '' ){
     rhymeButton.id = 'rhymeButtonStyle';
     rhymeButton.classList.add('rhyme-button-style');
     document.querySelector('.homepage').appendChild(rhymeButton);
+    // console.log("Parent:", rhymeButton.parentNode);
+    // console.log("Previous Sibling:", rhymeButton.previousElementSibling);
     
     rhymeButton.addEventListener('click', function handleClick(e) {
         e.preventDefault();
@@ -73,14 +79,17 @@ if (userText !== '' ){
 }
 );
 
-//Clone 
+//Clone (not sure what's going on here)
 
-const template = document.getElementById9=('template');
+const template = document.getElementById('template');
 const clone = template.content.cloneNode(true);
 const listItem = clone.querySelector('.history-item');
 listItem.textContent = userText;
-
 historyList.appendChild(clone);
+
+
+
+
 
 // Attempting fetch API data
         // fetch(`https://api.api-ninjas.com/v1/rhyme?word=${userText}`, {
